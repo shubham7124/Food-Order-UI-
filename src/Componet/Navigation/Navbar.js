@@ -20,7 +20,7 @@ export default function Navbar() {
                             <a className="nav-link" href="#OrderFood">F o o d <span class="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="">G i t L i n k <span class="sr-only">(current)</span></a>
+                            <a className="nav-link" href="https://github.com/shubham7124/Food-Order-UI-">G i t L i n k <span class="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item ">
                             <a className="nav-link" href="#">R e s t a u r a n t <span class="sr-only">(current)</span></a>
