@@ -1,0 +1,80 @@
+.background-div {
+    background-image: url('../../../public/image/img1.jpg');
+  
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    height: 725px;
+     padding-top:  20%;
+    min-height: 400px;
+   
+}
+
+.content-div {
+    position: absolute;
+    top: 53%;
+    left: 5%;
+  
+    height: 200px;
+    width: 550px;
+    transform: translateY(-50%);
+    max-width: 80%;
+  
+    background-color: rgba(210, 124, 124, 0.8);
+   
+    color: white;
+    text-align: justify;
+
+    padding: 20px;
+    word-wrap: break-word;
+    
+}
+
+h1,
+p {
+    margin: 0;
+   
+}
+
+.heading {
+    text-align: center;
+    padding-top: 50pxs;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+   
+}
+ 
+/* For responsiveness */
+@media (max-width: 768px) {
+    .background-image {
+        height: 200px;
+    
+    }
+
+    .content-div {
+
+        height: auto;
+    }
+
+    .heading {
+        padding-top: 80px;
+     
+    }
+    .containerCard {
+        flex-direction: column;
+      }
+  
+      .card {
+        width: calc(100% - 40px);
+      }
+    
+      .button-container {
+        height: auto;
+        padding: 10px;
+        padding-bottom: 10px;
+      }
+    
+}

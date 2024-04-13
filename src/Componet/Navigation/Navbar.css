@@ -1,0 +1,39 @@
+.navbar {
+    /* background-color: rgb(218, 218, 218); */
+    position: -webkit-sticky;
+   
+}
+
+.navbar-brand,
+.nav-link {
+    color: black;
+    /* Change color as needed */
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon,
+.buy-icon {
+    background-color: #007bff;
+    /* Blue color, change as needed */
+    color: rgb(251, 245, 245);
+    /* Text color */
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid rgb(99, 99, 180);
+}
